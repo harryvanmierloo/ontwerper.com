@@ -1,7 +1,7 @@
 ---
 title: Ontwerper.com
-subtitle: Design voor de digitale wereld. Door Harry
-image: /img/about-shade-grown.jpg
+subtitle: Design voor de digitale wereld. Door Harry.
+image: /img/products-grid1.jpg
 blurb:
   heading: Creaties van pure kwaliteit
   text: >-
