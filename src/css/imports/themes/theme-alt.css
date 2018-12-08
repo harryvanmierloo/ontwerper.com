@@ -1,0 +1,6 @@
+.theme--alt {
+
+  --color-main: var(--secondary);
+  --background-base: var(--white);
+  
+}

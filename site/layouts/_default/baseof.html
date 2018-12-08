@@ -1,7 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="theme--default">
+
   {{ partial "head" . }}
+  
   <body class="sans-serif">
+
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }} 
     {{ partial "footer" . }}
