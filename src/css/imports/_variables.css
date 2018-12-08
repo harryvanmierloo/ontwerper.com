@@ -35,7 +35,7 @@
 	--shadow-text: 0 0 3px rgba(0, 0, 0, 0.75);
 
 	/* Media queries */
-	@custom-media --breakpoint-not-small screen and (min-width: 400px;
+	@custom-media --breakpoint-not-small screen and (min-width: 480px);
 	@custom-media --breakpoint-medium screen and (min-width: 960px);
 	@custom-media --breakpoint-large screen and (min-width: 1280px);
 }
