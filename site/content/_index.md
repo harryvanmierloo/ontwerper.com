@@ -1,6 +1,6 @@
 ---
 title: Ontwerper.com
-subtitle: Support sustainable farming while enjoying a cup
+subtitle: Creaties van pure kwaliteit
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Why Kaldi?
