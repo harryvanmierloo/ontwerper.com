@@ -41,7 +41,7 @@ footer p {
 .hero {
   background-position: center;
   background-size: cover;
-  min-height: 130vh;
+  height: 130vh;
 }
 
 .hero__title {

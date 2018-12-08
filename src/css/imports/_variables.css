@@ -12,9 +12,9 @@
 	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
 
-	--font-size: 18px;
-	--font-size-m: 20px;
-	--font-size-l: 22px;
+	--font-size: 1rem;
+	--font-size-m: 1.5rem;
+	--font-size-l: 2rem;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 700;
@@ -35,7 +35,7 @@
 	--shadow-text: 0 0 3px rgba(0, 0, 0, 0.75);
 
 	/* Media queries */
-	@custom-media --breakpoint-not-small screen and (min-width: 40em);
-	@custom-media --breakpoint-medium screen and (min-width: 50em);
-	@custom-media --breakpoint-large screen and (min-width: 60em);
+	@custom-media --breakpoint-not-small screen and (min-width: 400px;
+	@custom-media --breakpoint-medium screen and (min-width: 960px);
+	@custom-media --breakpoint-large screen and (min-width: 1280px);
 }

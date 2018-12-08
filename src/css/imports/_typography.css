@@ -1,12 +1,13 @@
 html {
   font-size: var(--font-size);
+
   @media (--breakpoint-medium) {
     font-size: var(--font-size-m);
   }
+
   @media (--breakpoint-large) {
     font-size: var(--font-size-l);
   }
-  background-color: var(--black);
 }
 
 
@@ -17,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-main);
+  line-height: 1.5rem;
  }
 
 p {
