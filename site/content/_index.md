@@ -1,6 +1,7 @@
 ---
 title: Ontwerper.com
-subtitle: Design voor de digitale wereld. Door Harry.
+subtitle: Design voor de digitale wereld
+subsubtitle: Door Harry
 image: /img/products-grid1.jpg
 blurb:
   heading: Creaties van pure kwaliteit
