@@ -1,13 +1,19 @@
 .theme--alt {
 
-  --color-main: var(--white);
-  --text-main: var(--black);
-  --text-alt: #666;
-  --text-heading: var(--green-dark);
+  --color-main: #6573FF;
+  --text-main: var(--white);
+  --text-alt: var(--yellow-light);
+  --text-faded: #888;
+  --text-inverted: var(--black);
+  --text-heading: var(--yellow-light);
 
   --logo: var(--text-main);
 
-  --background-base: var(--white);
+  --background-base: var(--black);
+  --background-block: #666;
+  --background-why: var(--white);
   --background-title: var(--color-main);
+
+  --border-default: 1px solid #222;
 
 }

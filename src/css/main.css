@@ -13,16 +13,35 @@
 @import './imports/_typography';
 
 
+/* GENERAL */
+
+html {
+  background-color: var(--background-base);
+}
+
 html * {
   transition: background-color 0.5s ease-in-out, color 1s ease-in-out;
 }
 
-body {
-  background-color: var(--background-base);
+footer {
+  background: transparent;
+  border-top: var(--border-default);
+  margin-top: var(--spacing-double);
+  padding: var(--spacing-default);
+  text-align: center;
 }
 
+footer p {
+  color: var(--text-faded);
+  margin: 0;
+}
+
+/* HERO */
+
 .hero {
-  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  min-height: 130vh;
 }
 
 .hero__title {
@@ -31,11 +50,13 @@ body {
   display: inline-block;
   margin-top: var(--spacing-double);
   padding: var(--spacing-default);
+  text-shadow: var(--shadow-text);
   text-transform: uppercase;
 }
 
 .hero__subtitle {
-  bottom: 4rem;
+  bottom: 8rem;
+  color: var(--logo);
   text-shadow: var(--shadow-text);
   display: inline-block;
   left: 0;
@@ -49,6 +70,8 @@ body {
   font-size: 50%;
 }
 
+/* THEME SWITCHER */
+
 .theme--switcher {
   position: sticky;
   float: right;
@@ -56,15 +79,60 @@ body {
   top: var(--spacing-double);
 }
 
+/* BLOCKS */
+
 .block {
+  background-color: var(--background-block);
   padding: var(--spacing-default);
+  padding-bottom: calc( var(--cut-height) + var(--spacing-default) );
+  position: relative;
+}
+
+.block__content {
+  color: var(--text-main);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
 }
 
 .block__title {
   color: var(--text-heading);
+  text-transform: uppercase;
 }
 
 .block__title,
 .block__copy {
   text-align: center;
+}
+
+.block__why {
+  background: var(--background-why);
+}
+
+.block__why .block__copy {
+  color: var(--text-inverted); 
+}
+
+.block__why .block__title {
+  color: var(--text-inverted);
+}
+
+/* CUT */
+
+.cut--bottom:after {
+  bottom: 0;
+  content: '';
+  position: absolute;
+  right: 0;
+  border-bottom: var(--cut-height) solid var(--background-base);
+  border-left: 100vw solid transparent;
+}
+
+.hero.cut--bottom:after {
+  bottom: -30vh;
+  border-bottom: var(--cut-height) solid var(--background-why);
+}
+
+.block__why.cut--bottom:after {
+  border-bottom: var(--cut-height) solid var(--background-block);
 }

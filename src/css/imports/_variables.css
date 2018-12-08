@@ -2,7 +2,7 @@
 
 	/* Colors */
   --brand-red: #C3373F;
-  --orange-light: #FDE3C0;
+  --yellow-light: #EDE9D6;
   --green-dark: #171F0D;
   
   --white: #FFFFFF;
@@ -25,12 +25,14 @@
 	--spacing-double: 2rem;
 
 	/* Miscelaneous */
+	--cut-height: 4rem;
+
+	/* Borders */
 	--border-radius: .25rem;
-	--hover-transition: all 150ms ease;
 
 	/* Shadows */
 	--shadow-box: 0 0 var(--spacing-default) rgba(0, 0, 0, 1);
-	--shadow-text: 0 0 4rem rgba(0, 0, 0, 1);
+	--shadow-text: 0 0 3px rgba(0, 0, 0, 0.75);
 
 	/* Media queries */
 	@custom-media --breakpoint-not-small screen and (min-width: 40em);

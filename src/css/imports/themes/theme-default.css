@@ -1,13 +1,19 @@
 .theme--default {
 
   --color-main: var(--brand-red);
-  --text-main: var(--white);
-  --text-alt: var(--orange-light);
-  --text-heading: var(--orange-light);
+  --text-main: var(--green-dark);
+  --text-alt: var(--yellow-light);
+  --text-faded: #888;
+  --text-inverted: var(--white);
+  --text-heading: var(--green-dark);
 
-  --logo: var(--text-main);
+  --logo: var(--text-inverted);
 
-  --background-base: var(--green-dark);
+  --background-base: var(--white);
+  --background-block: var(--yellow-light);
+  --background-why: var(--green-dark);
   --background-title: var(--color-main);
+
+  --border-default: 1px solid #eee;
 
 }
