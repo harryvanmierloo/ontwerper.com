@@ -1,6 +1,12 @@
 .theme--alt {
 
-  --color-main: var(--secondary);
-  --background-base: var(--white);
-  
+  --color-main: var(--white);
+  --text-main: var(--black);
+  --text-alt: #666;
+
+  --title: var(--text-main);
+
+  --background-base: var(--black);
+  --background-title: var(--color-main);
+
 }

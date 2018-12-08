@@ -12,16 +12,16 @@ html {
 
 body {
   font-family: var(--font-family);
-  font-size: var(--spacing-medium);
-  line-height: var(--line-height);
+  font-size: var(--spacing-default);
   font-weight: var(--body-font-weight);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--off-white);
+  color: var(--text-main);
+  background-color: var(--background-base);
  }
 
 p {
-  margin-bottom: var(--spacing-medium);
+  margin-bottom: var(--spacing-default);
   max-width: 32rem;
 }
 
@@ -35,8 +35,20 @@ em {
 
 sup {
   font-size: .6rem;
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   vertical-align: super;
+}
+
+h1, h2, h3, h4 {
+  font-weight: var(--bold-font-weight);
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
 }
 
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */

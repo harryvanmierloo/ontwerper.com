@@ -1,6 +1,13 @@
 {{ define "main" }}
 
-<img src="{{ .Params.image }}"/>
-<h2>{{.Params.subtitle}}</h2>
+<div class="hero" style="background-image: url({{ .Params.image }})">
+  <h1 class="hero__title">{{.Params.title}}</h2>
+  <h2 class="hero__subtitle">{{.Params.subtitle}}<span class="hero__subsubtitle">{{.Params.subsubtitle}}</span>
+  </h2>
+  <div class="toolbar">
+    <button value="default">Default</button>
+    <button value="alt">Alt</button>
+  </div>
+</div>
 
 {{ end }}

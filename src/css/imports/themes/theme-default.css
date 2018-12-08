@@ -1,6 +1,12 @@
 .theme--default {
 
-  --color-main: var(--primary);
+  --color-main: var(--brand-red);
+  --text-main: var(--white);
+  --text-alt: var(--orange-light);
+
+  --title: var(--text-main);
+
   --background-base: var(--black);
-  
+  --background-title: var(--color-main);
+
 }
