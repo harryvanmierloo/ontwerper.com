@@ -15,7 +15,7 @@ why:
 
 
     Hier komt een Why-verhaal
-intro:
+how:
   heading: Hoe doe ik dat?
   text: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
