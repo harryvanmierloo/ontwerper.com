@@ -1,5 +1,5 @@
 ---
-title: Harry.com
+title: Ontwerper.com
 subtitle: Design voor de digitale wereld
 subsubtitle: Door Harry
 image: /img/products-grid1.jpg
