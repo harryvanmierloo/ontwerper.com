@@ -1,17 +1,25 @@
-/* External Library Includes */
+/* Reset includes */
 @import './imports/_reset';
-
-/* Modules */
 @import './imports/_box-sizing';
-@import './imports/_typography';
 
 /* Variables */
-/* Importing here will allow you to override any variables in the modules */
 @import './imports/_variables';
 
 /* Themes */
 @import './imports/themes/theme-default.css';
 @import './imports/themes/theme-alt.css';
+
+/* Modules */
+@import './imports/_typography';
+
+
+html * {
+  transition: background-color 0.5s ease-in-out, color 1s ease-in-out;
+}
+
+body {
+  background-color: var(--background-base);
+}
 
 .hero {
   min-height: 100vh;
@@ -19,7 +27,7 @@
 
 .hero__title {
   background: var(--background-title);
-  color: var(--title);
+  color: var(--logo);
   display: inline-block;
   margin-top: var(--spacing-double);
   padding: var(--spacing-default);
@@ -31,7 +39,6 @@
   text-shadow: var(--shadow-text);
   display: inline-block;
   left: 0;
-  padding: var(--spacing-default);
   position: absolute;
   text-transform: uppercase;
 }
@@ -40,4 +47,24 @@
   color: var(--text-alt);
   display: block;
   font-size: 50%;
+}
+
+.theme--switcher {
+  position: sticky;
+  float: right;
+  margin-right: var(--spacing-default);
+  top: var(--spacing-double);
+}
+
+.block {
+  padding: var(--spacing-default);
+}
+
+.block__title {
+  color: var(--text-heading);
+}
+
+.block__title,
+.block__copy {
+  text-align: center;
 }

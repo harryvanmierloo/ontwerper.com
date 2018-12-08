@@ -4,10 +4,20 @@
   <h1 class="hero__title">{{.Params.title}}</h2>
   <h2 class="hero__subtitle">{{.Params.subtitle}}<span class="hero__subsubtitle">{{.Params.subsubtitle}}</span>
   </h2>
-  <div class="toolbar">
+  <div class="theme--switcher">
     <button value="default">Default</button>
     <button value="alt">Alt</button>
   </div>
+</div>
+
+<div class="block text--block why">
+  <h2 class="block__title">{{.Params.why.heading}}</h2>
+  <p class="block__copy">{{.Params.why.text}}</p>
+</div>
+
+<div class="block text--block how">
+  <h2 class="block__title">{{.Params.how.heading}}</h2>
+  <p class="block__copy">{{.Params.how.text}}</p>
 </div>
 
 {{ end }}

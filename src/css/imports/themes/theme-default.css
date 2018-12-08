@@ -3,10 +3,11 @@
   --color-main: var(--brand-red);
   --text-main: var(--white);
   --text-alt: var(--orange-light);
+  --text-heading: var(--orange-light);
 
-  --title: var(--text-main);
+  --logo: var(--text-main);
 
-  --background-base: var(--black);
+  --background-base: var(--green-dark);
   --background-title: var(--color-main);
 
 }

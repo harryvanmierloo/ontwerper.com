@@ -3,9 +3,10 @@
 	/* Colors */
   --brand-red: #C3373F;
   --orange-light: #FDE3C0;
+  --green-dark: #171F0D;
   
-  --white: rgba(255, 255, 255, 1);
-  --black: rgba(43, 37, 35, 1);
+  --white: #FFFFFF;
+  --black: #000000;
 
 	/* Typography */
 	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
