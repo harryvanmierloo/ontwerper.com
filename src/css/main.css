@@ -119,6 +119,15 @@ footer p {
 
 /* CUT */
 
+.cut--top:before {
+  top: calc( var(--cut-height) * -1 );
+  content: '';
+  position: absolute;
+  right: 0;
+  border-bottom: var(--cut-height) solid var(--background-base);
+  border-left: 100vw solid transparent;
+}
+
 .cut--bottom:after {
   bottom: 0;
   content: '';
@@ -128,8 +137,7 @@ footer p {
   border-left: 100vw solid transparent;
 }
 
-.hero.cut--bottom:after {
-  bottom: -30vh;
+.block__why.cut--top:before {
   border-bottom: var(--cut-height) solid var(--background-why);
 }
 
