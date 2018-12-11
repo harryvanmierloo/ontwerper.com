@@ -1,7 +1,7 @@
 ---
 title: Ontwerper.com
 subtitle: Design voor de digitale wereld
-subsubtitle: Door Harry
+subsubtitle: Door Tim
 image: /img/hero.jpg
 why:
   heading: Creaties van pure kwaliteit
