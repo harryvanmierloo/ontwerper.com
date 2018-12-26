@@ -15,19 +15,18 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title", name: "title", widget: string}
           - {label: "Subtitle", name: "subtitle", widget: string}
           - {label: "Image", name: "image", widget: image}
-          - {label: "Why", name: "why", widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: markdown},
-              {label: "Call to Action", name: cta, widget: object, fields: [
-                {label: "Text", name: "text", widget: string},
-                {label: "Link", name: "link", widget: string}
-              ]}
-            ]}
+          - label: "Why"
+            name: "why"
+            widget: object
+            fields:
+              - {label: "Heading", name: "heading", widget: string}
+              - {label: "Text", name: "text", widget: text}
+              - {label: "Button", name: "button", widget: object, fields: [
+                  {label: "Text", name: "text", widget: string},
+                  {label: "Link", name: "link", widget: string}]}
           - {label: "How", name: "how", widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: markdown}
-            ]}
+              {label: "Text", name: "text", widget: text}]}
           - {label: "About", name: "about", widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: markdown}
-            ]}
+              {label: "Text", name: "text", widget: text}]}

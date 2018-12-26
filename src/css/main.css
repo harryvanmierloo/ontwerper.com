@@ -39,33 +39,41 @@ footer p {
 .hero {
   background-position: center;
   background-size: cover;
-  height: 130vh;
+  height: 80vh;
+}
+
+.hero .logo {
+  padding: var(--spacing-default) 0;
+  position: absolute;
+  left: var(--spacing-default);
+  top: 30vh;
+
+  @media (--breakpoint-large) {
+    left: calc( (100vw - 960px ) / 2);
+  }
 }
 
 .hero__title {
-  background: var(--background-title);
   color: var(--logo);
-  display: inline-block;
-  margin-top: var(--spacing-double);
-  padding: var(--spacing-default);
-  text-shadow: var(--shadow-text);
+  font-size: 300%;
+  padding: 0;
   text-transform: uppercase;
+
+  @media (--breakpoint-large) {
+    font-size: 58px;
+  }
+}
+
+.hero__title span {
+  font-size: 33%;
 }
 
 .hero__subtitle {
-  bottom: 8rem;
-  color: var(--logo);
-  text-shadow: var(--shadow-text);
-  display: inline-block;
-  left: 0;
-  position: absolute;
-  text-transform: uppercase;
-}
-
-.hero__subtitle span {
-  color: var(--text-alt);
-  display: block;
-  font-size: 50%;
+  color: var(--color-main);
+  font-family: var(--font-family);
+  font-size: 1.05rem;
+  font-weight: bold;
+  padding: 0.25rem 0;
 }
 
 /* THEME SWITCHER */
@@ -77,20 +85,36 @@ footer p {
   top: var(--spacing-double);
 }
 
+/* BUTTON */
+
+.button {
+  display: inline-block;
+  font-size: 125%;
+  padding: var(--spacing-half) var(--spacing-default);
+  text-decoration: none;
+  box-shadow: var(--shadow-button);
+}
+
+.button--primary {
+  background-color: var(--button-primary);
+  color: var(--text-inverted);
+}
+
+
 /* BLOCKS */
 
 .block {
   background-color: var(--background-block);
-  padding: var(--spacing-default);
+  padding: var(--spacing-double) var(--spacing-default);
   padding-bottom: calc( var(--cut-height) + var(--spacing-default) );
   position: relative;
 }
 
 .block__content {
   color: var(--text-main);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto var(--spacing-double);
   max-width: 960px;
+  text-align: center;
 }
 
 .block__title {
@@ -98,9 +122,8 @@ footer p {
   text-transform: uppercase;
 }
 
-.block__title,
 .block__copy {
-  text-align: center;
+  margin-bottom: var(--spacing-double);
 }
 
 .block__why   { background: var(--background-why); }

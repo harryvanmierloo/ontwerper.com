@@ -8,7 +8,7 @@
   --text-heading: var(--color-main);
   --text-heading-alt: var(--dark-purple);
 
-  --logo: var(--text-inverted);
+  --logo: var(--dark-purple);
 
   --background-base: var(--white);
   --background-block: var(--papaya);
@@ -17,6 +17,8 @@
   --background-about: var(--dark-purple);
   --background-title: var(--color-main);
   --background-footer: var(--dark-grey);
+
+  --button-primary: var(--color-main);
 
   --border-default: 1px solid #eee;
 

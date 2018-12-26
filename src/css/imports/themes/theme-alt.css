@@ -18,6 +18,8 @@
   --background-title: var(--color-main);
   --background-footer: var(--dark-grey);
 
+  --button-primary: var(--color-main);
+
   --border-default: 1px solid #eee;
 
 }

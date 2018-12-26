@@ -31,6 +31,10 @@ body {
   line-height: 1.5rem;
  }
 
+a {
+  font-weight: 600;
+}
+
 p {
   color: var(--text-main);
   margin-bottom: var(--spacing-default);
@@ -52,7 +56,8 @@ sup {
 
 h1, h2, h3, h4 {
   font-family: var(--font-family-heading);
-  font-weight: var(--bold-font-weight);
+  font-weight: normal;
+  line-height: 1.2;
   padding: var(--spacing-double);
 }
 
