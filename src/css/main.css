@@ -24,15 +24,13 @@ html * {
 }
 
 footer {
-  background: transparent;
-  border-top: var(--border-default);
-  margin-top: var(--spacing-double);
+  background: var(--background-footer);
   padding: var(--spacing-default);
   text-align: center;
 }
 
 footer p {
-  color: var(--text-faded);
+  color: var(--text-inverted);
   margin: 0;
 }
 
@@ -105,15 +103,19 @@ footer p {
   text-align: center;
 }
 
-.block__why {
-  background: var(--background-why);
+.block__why   { background: var(--background-why); }
+.block__how   { background: var(--background-how); }
+.block__about { background: var(--background-about); }
+
+.block__how .block__title {
+  color: var(--text-heading-alt);
 }
 
-.block__why .block__copy {
+.block__about .block__copy {
   color: var(--text-inverted); 
 }
 
-.block__why .block__title {
+.block__about .block__title {
   color: var(--text-inverted);
 }
 
@@ -142,5 +144,13 @@ footer p {
 }
 
 .block__why.cut--bottom:after {
-  border-bottom: var(--cut-height) solid var(--background-block);
+  border-bottom: var(--cut-height) solid var(--background-how);
+}
+
+.block__how.cut--bottom:after {
+  border-bottom: var(--cut-height) solid var(--background-about);
+}
+
+.block__about.cut--bottom:after {
+  border-bottom: var(--cut-height) solid var(--background-footer);
 }

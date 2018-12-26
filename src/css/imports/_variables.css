@@ -1,15 +1,19 @@
 :root {
 
 	/* Colors */
-  --brand-red: #C3373F;
-  --yellow-light: #EDE9D6;
-  --green-dark: #171F0D;
+  --papaya: #FEA166;
+  --living-corale: #FF6F61;
+  --raspberry: #D64161;
+  --magenta-haze: #9D446E;
+  --dark-purple: #3F315D;
+  --dark-grey: #1E1A34;
   
   --white: #FFFFFF;
   --black: #000000;
 
 	/* Typography */
 	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family-heading: 'Lietz-LindauHamburg';
 	--line-height: 1.5;
 
 	--font-size: 1rem;

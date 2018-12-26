@@ -1,19 +1,23 @@
 .theme--alt {
 
-  --color-main: #6573FF;
-  --text-main: var(--white);
-  --text-alt: var(--yellow-light);
+  --color-main: var(--living-corale);
+  --text-main: var(--dark-grey);
+  --text-alt: var(--papaya);
   --text-faded: #888;
-  --text-inverted: var(--black);
-  --text-heading: var(--yellow-light);
+  --text-inverted: var(--white);
+  --text-heading: var(--color-main);
+  --text-heading-alt: var(--dark-purple);
 
-  --logo: var(--text-main);
+  --logo: var(--text-inverted);
 
-  --background-base: var(--black);
-  --background-block: #666;
+  --background-base: var(--white);
+  --background-block: var(--papaya);
   --background-why: var(--white);
+  --background-how: var(--raspberry);
+  --background-about: var(--dark-purple);
   --background-title: var(--color-main);
+  --background-footer: var(--dark-grey);
 
-  --border-default: 1px solid #222;
+  --border-default: 1px solid #eee;
 
 }
