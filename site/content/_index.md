@@ -1,7 +1,6 @@
 ---
 title: Ontwerper.com
 subtitle: UX advies & design voor de digitale wereld
-subsubtitle: Door Harry
 image: /img/hero.jpg
 why:
   cta: Neem contact op
