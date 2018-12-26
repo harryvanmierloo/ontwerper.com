@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Lietz-LindauHamburg';
+    src:url('../fonts/Lietz-LindauHamburg.ttf.woff') format('woff'),
+        url('../fonts/Lietz-LindauHamburg.ttf.svg#Lietz-LindauHamburg') format('svg'),
+        url('../fonts/Lietz-LindauHamburg.ttf.eot'),
+        url('../fonts/Lietz-LindauHamburg.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
   font-size: var(--font-size);
 
@@ -41,6 +51,7 @@ sup {
 }
 
 h1, h2, h3, h4 {
+  font-family: 'Lietz-LindauHamburg';
   font-weight: var(--bold-font-weight);
   padding: var(--spacing-default);
 }
