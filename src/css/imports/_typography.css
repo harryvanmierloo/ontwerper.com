@@ -53,11 +53,11 @@ sup {
 h1, h2, h3, h4 {
   font-family: var(--font-family-heading);
   font-weight: var(--bold-font-weight);
-  padding: var(--spacing-default);
+  padding: var(--spacing-double);
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 250%;
 
   @media (--breakpoint-not-small) {
     font-size: 200%;
@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 200%;
 }
 
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
