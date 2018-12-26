@@ -73,7 +73,7 @@ footer p {
   font-family: var(--font-family);
   font-size: 1.05rem;
   font-weight: bold;
-  padding: 0.25rem 0;
+  padding: 0;
 }
 
 /* THEME SWITCHER */
@@ -105,7 +105,7 @@ footer p {
 
 .block {
   background-color: var(--background-block);
-  padding: var(--spacing-double) var(--spacing-default);
+  padding: var(--spacing-default);
   padding-bottom: calc( var(--cut-height) + var(--spacing-default) );
   position: relative;
 }
