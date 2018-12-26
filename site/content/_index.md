@@ -3,7 +3,11 @@ title: Ontwerper.com
 subtitle: UX advies & design voor de digitale wereld
 image: /img/hero.jpg
 why:
-  body: >-
+  button:
+    link: 'mailto:info@ontwerper.com'
+    text: Neem contact op
+  heading: Creaties van pure kwaliteit
+  text: >-
     Iedereen kent producten die prettig zijn in gebruik. Vaak zijn ze ontworpen
     door organisaties die tijdens het gehele traject gebruikers centraal zetten.
     Eén gebruiker tevreden stellen is eenvoudig. Een grote groep gebruikers
@@ -15,10 +19,6 @@ why:
     van een UX-strategie binnen de kaders van uw business-doelstellingen en
     merk. Zodat ook u de user experience van uw gebruikers systematisch kunt
     verbeteren.
-  button:
-    link: 'mailto:info@ontwerper.com'
-    text: Neem contact op
-  heading: Creaties van pure kwaliteit
 how:
   heading: Hoe doe ik dat?
   text: >-
