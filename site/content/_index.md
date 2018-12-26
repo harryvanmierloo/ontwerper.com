@@ -3,7 +3,9 @@ title: Ontwerper.com
 subtitle: UX advies & design voor de digitale wereld
 image: /img/hero.jpg
 why:
-  cta: Neem contact op
+  button:
+    link: 'mailto:info@ontwerper.com'
+    text: Neem contact op
   heading: Creaties van pure kwaliteit
   text: >-
     Iedereen kent producten die prettig zijn in gebruik. Vaak zijn ze ontworpen
