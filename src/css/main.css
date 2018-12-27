@@ -214,6 +214,8 @@ html * {
 .footer {
   background: var(--background-footer);
   color: var(--text-inverted);
+  display: flex;
+  flex-direction: column;
   padding: var(--spacing-double);
   padding-bottom: 4rem;
   text-align: center;
@@ -227,7 +229,8 @@ html * {
 
 .footer__info {
   color: var(--text-alt);
-  margin-top: var(--spacing-default);
+  margin: var(--spacing-default) auto 0;
+  text-align: left;
 }
 
 .footer__info--item {
@@ -240,4 +243,10 @@ html * {
 
 .footer__info--item:hover {
   color: var(--text-inverted);
+}
+
+.footer__info--item span {
+  display: inline-block;
+  width: var(--spacing-double);
+  transition: none;
 }
