@@ -1,6 +1,6 @@
 .theme--default {
 
-  --color-main: var(--raspberry);
+  --color-main: var(--living-coral);
   --text-main: var(--dark-grey);
   --text-alt: var(--papaya);
   --text-faded: #888;
@@ -8,17 +8,19 @@
   --text-heading: var(--color-main);
   --text-heading-alt: var(--dark-purple);
 
-  --logo: var(--dark-purple);
+  --logo-main: var(--dark-purple);
+  --logo-sub: var(--raspberry);
 
   --background-base: var(--white);
   --background-block: var(--papaya);
   --background-why: var(--white);
-  --background-how: var(--papaya);
+  --background-how: var(--living-coral);
+  --background-quote: var(--raspberry);
   --background-about: var(--dark-purple);
   --background-title: var(--color-main);
   --background-footer: var(--dark-grey);
 
-  --button-primary: var(--color-main);
+  --button-primary: var(--raspberry);
 
   --border-default: 1px solid #eee;
 

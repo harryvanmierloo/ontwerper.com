@@ -2,7 +2,7 @@
 
 	/* Colors */
   --papaya: #FEA166;
-  --living-corale: #FF6F61;
+  --living-coral: #FF6F61;
   --raspberry: #D64161;
   --magenta-haze: #9D446E;
   --dark-purple: #3F315D;
@@ -16,9 +16,9 @@
 	--font-family-heading: 'Lietz-LindauHamburg';
 	--line-height: 1.5;
 
-	--font-size: 0.9rem;
-	--font-size-m: 1rem;
-	--font-size-l: 1.25rem;
+	--font-size: 1rem;
+	--font-size-m: 1.25rem;
+	--font-size-l: 1.5rem;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 700;
@@ -36,7 +36,7 @@
 
 	/* Shadows */
 	--shadow-box: 0 0 var(--spacing-default) rgba(0, 0, 0, 1);
-	--shadow-text: 0 0 3px rgba(0, 0, 0, 0.75);
+	--shadow-text: 0 2px 4px rgba(0, 0, 0, 0.25);
   --shadow-button: var(--spacing-half) var(--spacing-half) 0 var(--dark-purple);
 
 	/* Media queries */
