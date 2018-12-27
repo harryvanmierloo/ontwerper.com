@@ -3,7 +3,7 @@ title: Ontwerper.com
 subtitle: UX advies & design voor de digitale wereld
 image: /img/hero.jpg
 email: info@ontwerper.com
-phone: '+31641435804'
+phone: +31 6 41 43 58 04
 why:
   button:
     link: 'mailto:info@ontwerper.com'
