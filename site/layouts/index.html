@@ -27,6 +27,12 @@
   </div>
 </div>
 
+<div class="block text--block block__quote cut--bottom">
+  <div class="block__content">
+    <div class="block__copy">{{ with .Params.quote.text }}{{ . | safeHTML }}{{ end }}</div>
+  </div>
+</div>
+
 <div class="block text--block block__about cut--bottom">
   <div class="block__content">
     <h2 class="block__title">{{.Params.about.heading}}</h2>
