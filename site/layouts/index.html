@@ -29,7 +29,8 @@
 
 <div class="block text--block block__quote cut--bottom">
   <div class="block__content">
-    <div class="block__copy">{{ with .Params.quote.text }}{{ . | safeHTML }}{{ end }}</div>
+    <div class="quote__text">{{ with .Params.quote.text }}{{ . | safeHTML }}{{ end }}</div>
+    <div class="quote__author">- {{ .Params.quote.author }}</div>
   </div>
 </div>
 

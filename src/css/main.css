@@ -139,8 +139,23 @@ footer p {
 }
 
 .block__quote {
-  font-size: 250%;
+  font-size: 150%;
+  line-height: 1.2;
+}
+
+.block__quote .block__content {
+  margin: var(--spacing-default) auto 0;
+}
+
+.block__quote .quote__text {
   color: var(--text-inverted);
+}
+
+.block__quote .quote__author {
+  color: var(--text-alt);
+  font-family: var(--font-family-heading);
+  margin-top: var(--spacing-double);
+  text-transform: uppercase;
 }
 
 .block__why   { background: var(--background-why); }
@@ -150,10 +165,6 @@ footer p {
 
 .block__how .block__title {
   color: var(--text-heading-alt);
-}
-
-.block__quote {
-  color: var(--text-inverted); 
 }
 
 .block__about .block__copy {

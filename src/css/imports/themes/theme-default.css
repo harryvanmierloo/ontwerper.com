@@ -3,9 +3,9 @@
   --color-main: var(--living-coral);
   --text-main: var(--dark-grey);
   --text-alt: var(--papaya);
-  --text-faded: #888;
+  --text-faded: var(--papaya);
   --text-inverted: var(--white);
-  --text-heading: var(--color-main);
+  --text-heading: var(--raspberry);
   --text-heading-alt: var(--dark-purple);
 
   --logo-main: var(--dark-purple);
