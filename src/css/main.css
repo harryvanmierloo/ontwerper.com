@@ -47,7 +47,11 @@ footer p {
   padding: var(--spacing-default) 0;
   position: absolute;
   max-width: 50vw;
-  top: 25vh;
+  top: var(--spacing-double);
+
+  @media (--breakpoint-medium) {
+    top: 25vh;
+  }
 
   @media (--breakpoint-large) {
     left: calc( (100vw - 960px ) / 2);
@@ -56,12 +60,12 @@ footer p {
 
 .hero__title {
   color: var(--logo-main);
-  font-size: 160%;
+  font-size: 175%;
   padding: 0;
   text-transform: uppercase;
 
   @media (--breakpoint-medium) {
-    font-size: 250%;
+    font-size: 200%;
   }
 
   @media (--breakpoint-large) {
@@ -70,13 +74,13 @@ footer p {
 }
 
 .hero__title span {
-  font-size: 33%;
+  font-size: 25%;
 }
 
 .hero__subtitle {
   color: var(--logo-sub);
   font-family: var(--font-family);
-  font-size: 1.05rem;
+  font-size: 0.875rem;
   font-weight: bold;
   padding: 0;
 }
