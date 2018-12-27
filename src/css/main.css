@@ -23,17 +23,6 @@ html * {
   transition: background-color 0.5s ease-in-out, color 1s ease-in-out;
 }
 
-footer {
-  background: var(--background-footer);
-  padding: var(--spacing-default);
-  text-align: center;
-}
-
-footer p {
-  color: var(--text-inverted);
-  margin: 0;
-}
-
 /* HERO */
 
 .hero {
@@ -58,7 +47,7 @@ footer p {
   }
 }
 
-.hero__title {
+.logo__title {
   color: var(--logo-main);
   font-size: 175%;
   padding: 0;
@@ -73,11 +62,11 @@ footer p {
   }
 }
 
-.hero__title span {
+.logo__title span {
   font-size: 25%;
 }
 
-.hero__subtitle {
+.logo__subtitle {
   color: var(--logo-sub);
   font-family: var(--font-family);
   font-size: 0.875rem;
@@ -217,4 +206,24 @@ footer p {
 
 .block__about.cut--bottom:after {
   border-bottom: var(--cut-height) solid var(--background-footer);
+}
+
+
+/* FOOTER */
+
+footer {
+  background: var(--background-footer);
+  padding: var(--spacing-default);
+  text-align: center;
+}
+
+footer p {
+  color: var(--text-inverted);
+  margin: 0;
+}
+
+footer .logo__title,
+footer .logo__title span,
+footer .logo__subtitle {
+  color: var(--text-inverted);
 }
