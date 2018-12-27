@@ -211,19 +211,33 @@ html * {
 
 /* FOOTER */
 
-footer {
+.footer {
   background: var(--background-footer);
-  padding: var(--spacing-default);
+  color: var(--text-inverted);
+  padding: var(--spacing-double);
+  padding-bottom: 4rem;
   text-align: center;
 }
 
-footer p {
+.footer .logo__title,
+.footer .logo__title span,
+.footer .logo__subtitle {
   color: var(--text-inverted);
-  margin: 0;
 }
 
-footer .logo__title,
-footer .logo__title span,
-footer .logo__subtitle {
+.footer__info {
+  color: var(--text-alt);
+  margin-top: var(--spacing-default);
+}
+
+.footer__info--item {
+  display: block;
+  font-size: normal;
+  font-weight: normal;
+  text-decoration: none;
+  transition: none;
+}
+
+.footer__info--item:hover {
   color: var(--text-inverted);
 }

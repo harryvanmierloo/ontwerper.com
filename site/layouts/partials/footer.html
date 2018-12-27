@@ -1,7 +1,7 @@
 <footer class="footer">
   <h1 class="footer__logo logo__title">Ontwerper<span>.com</span></h1>
   <div class="footer__info">
-    <a class="footer__info--email">{{.Params.email}}</a>
-    <a class="footer__info--phone">{{.Params.phone}}</a>
+    <a class="footer__info--item" href="mailto:{{.Params.email}}">M: {{.Params.email}}</a>
+    <a class="footer__info--item" href="tel:{{.Params.phone}}">T: {{.Params.phone}}</a>
   </div>
 </footer>
