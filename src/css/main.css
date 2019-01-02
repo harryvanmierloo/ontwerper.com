@@ -184,10 +184,11 @@ html * {
   text-transform: uppercase;
 }
 
-.block__why   { background: var(--background-why); }
-.block__how   { background: var(--background-how); }
-.block__quote { background: var(--background-quote); }
-.block__about { background: var(--background-about); }
+.block__why        { background: var(--background-why); }
+.block__how        { background: var(--background-how); }
+.block__references { background: var(--background-references); }
+.block__quote      { background: var(--background-quote); }
+.block__about      { background: var(--background-about); }
 
 .block__how .block__title {
   color: var(--text-heading-alt);
@@ -231,6 +232,10 @@ html * {
 
 .block__how.cut--bottom:after {
   border-bottom: var(--cut-height) solid var(--background-quote);
+}
+
+.block__references.cut--bottom:after {
+  border-bottom: var(--cut-height) solid var(--background-about);
 }
 
 .block__quote.cut--bottom:after {

@@ -31,10 +31,6 @@ how:
     beschik ik over een netwerk van professionals om mee samen te werken. Open
     en transparante communicatie zijn belangrijk voor mij om de beste resultaten
     voor u te kunnen bereiken.
-references:
-  - {}
-  - {}
-  - {}
 quote:
   author: Klant.com
   text: >-
