@@ -1,6 +1,6 @@
 <head>
 
-	<title>{{ .Title }} | {{.Params.subtitle}}</title>
+	<title>{{ .Title }} - {{.Params.subtitle}}</title>
 	<link rel="stylesheet" href="/css/main.css" />
 
 	<meta charset="utf-8">
@@ -8,6 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{.Params.meta.description}}">
 	<meta name="keywords" content="{{.Params.meta.keywords}}">
+
+	<meta property="og:site_name" content="www.ontwerper.com">
+	<meta property="og:url" content="https://www.ontwerper.com/">
+	<meta property="og:title" content="{{ .Title }} - {{.Params.subtitle}}">
+	<meta property="og:description" content="{{.Params.meta.description}}">
+	<meta property="og:image" content="{{.Params.meta.fbcard}}">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
