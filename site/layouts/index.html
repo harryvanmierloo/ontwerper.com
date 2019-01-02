@@ -29,11 +29,15 @@
 
 <div class="block block__references cut--bottom">
   <div class="block__content">
-    <div class="references__intro"></div>
+    <div class="references__intro">{{.Params.references.intro}}</div>
     <ul class="references__logos">
-      <!-- {{ range .Params.references }}
-        <img src="{{ .logo }}" />
-      {{ end }} -->
+      {{ range .Params.references.logos }}
+        <li class="references__logo">
+          <a target="blank" href="{{ .link }}">
+            <img src="{{ .logo }}" />
+          </a>
+        </li>
+      {{ end }}
     </ul>
   </div>
 </div>

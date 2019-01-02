@@ -164,6 +164,16 @@ html * {
   }
 }
 
+.block__why        { background: var(--background-why); }
+.block__how        { background: var(--background-how); }
+.block__references { background: var(--background-references); }
+.block__quote      { background: var(--background-quote); }
+.block__about      { background: var(--background-about); }
+
+.block__how .block__title {
+  color: var(--text-heading-alt);
+}
+
 .block__quote {
   font-size: 150%;
   line-height: 1.2;
@@ -184,14 +194,33 @@ html * {
   text-transform: uppercase;
 }
 
-.block__why        { background: var(--background-why); }
-.block__how        { background: var(--background-how); }
-.block__references { background: var(--background-references); }
-.block__quote      { background: var(--background-quote); }
-.block__about      { background: var(--background-about); }
+.block__references .block__content {
+  margin: var(--spacing-default) auto var(--spacing-default);
+}
 
-.block__how .block__title {
-  color: var(--text-heading-alt);
+.block__references .references__intro {
+  color: var(--text-inverted);
+  margin-bottom: var(--spacing-default);
+}
+
+.block__references .references__logos {
+  margin: 0;
+  padding: 0;
+}
+
+.block__references .references__logos .references__logo {
+  display: inline-block;
+  width: 240px;
+  padding: 0 var(--spacing-default);
+
+  @media (--breakpoint-medium) {
+    width: 300px;
+  }
+}
+
+.block__references .references__logos .references__logo img {
+  height: 100%;
+  width: 100%;
 }
 
 .block__about .block__copy {
