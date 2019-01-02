@@ -34,9 +34,12 @@ how:
 references:
   intro: 'Eerder heb ik o.a. samengewerkt met:'
   logos:
-    - logo: /img/startpage-2x.png
-    - logo: /img/fox-it-2x.png
-    - logo: /img/tu-delft-2x.png
+    - link: 'https://www.startpage.com'
+      logo: /img/startpage-2x.png
+    - link: 'https://www.fox-it.com'
+      logo: /img/fox-it-2x.png
+    - link: 'https://www.tudelft.nl'
+      logo: /img/tu-delft-2x.png
 quote:
   author: Klant.com
   text: >-
