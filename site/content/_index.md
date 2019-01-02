@@ -31,6 +31,12 @@ how:
     beschik ik over een netwerk van professionals om mee samen te werken. Open
     en transparante communicatie zijn belangrijk voor mij om de beste resultaten
     voor u te kunnen bereiken.
+references:
+  intro: 'Eerder heb ik samengewerkt met onder andere:'
+  logos:
+    - logo: /img/startpage-2x.png
+    - logo: /img/fox-it-2x.png
+    - logo: /img/tu-delft-2x.png
 quote:
   author: Klant.com
   text: >-
