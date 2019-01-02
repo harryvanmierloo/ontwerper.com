@@ -3,7 +3,7 @@ title: Ontwerper.com
 subtitle: UX advies & design voor de digitale wereld
 meta:
   description: >-
-    Creaties van pure kwaliteit. Hulp bij het opzetten en uitvoeren van een
+    Creaties van pure kwaliteit. Ik help u met het opzetten en uitvoeren van een
     UX-strategie binnen de kaders van uw business-doelstellingen en merk. Ook
     beschikbaar voor allround UX-, UI- en visual design werk.
   keywords: >-
