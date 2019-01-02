@@ -32,7 +32,7 @@ how:
     en transparante communicatie zijn belangrijk voor mij om de beste resultaten
     voor u te kunnen bereiken.
 references:
-  intro: 'Eerder heb ik samengewerkt met:'
+  intro: 'Eerder heb ik o.a. samengewerkt met:'
   logos:
     - logo: /img/startpage-2x.png
     - logo: /img/fox-it-2x.png
