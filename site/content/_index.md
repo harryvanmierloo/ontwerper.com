@@ -7,6 +7,9 @@ meta:
     van een UX-strategie binnen de kaders van uw business-doelstellingen en
     merk. Zodat ook u de user experience van uw gebruikers systematisch kunt
     verbeteren.
+  keywords: >-
+    ontwerper, ux, ux design, ux designer, harry van mierloo, ux designer den
+    haag, ui designer, visual designer
 image: /img/hero.jpg
 email: info@ontwerper.com
 phone: +31 6 41 43 58 04
