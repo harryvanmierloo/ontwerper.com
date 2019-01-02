@@ -34,11 +34,11 @@ how:
     product door de ogen van uw gebruikers leert zien. Doel is om een actieve
     gebruikersfocus binnen uw eigen bedrijfscultuur neer te zetten. Daarmee
     wordt een fundament gecreëerd waarmee u passende keuzes voor uw gebruikers
-    en product-team kunt maken.<br><br>Waar mogelijk werk ik samen met uw eigen
-    team en management. Indien gewenst help ik met uitvoerend ontwerpwerk en
-    beschik ik over een netwerk van professionals om mee samen te werken. Open
-    en transparante communicatie zijn belangrijk voor mij om de beste resultaten
-    voor u te kunnen bereiken.
+    en product-team kunt blijven maken.<br><br>Waar mogelijk werk ik samen met
+    uw eigen team en management. Indien gewenst help ik met uitvoerend
+    ontwerpwerk en beschik ik over een netwerk van professionals om mee samen te
+    werken. Open en transparante communicatie zijn belangrijk voor mij om de
+    beste resultaten voor u te kunnen bereiken.
 references:
   intro: 'Ik heb o.a. samengewerkt met:'
   logos:
