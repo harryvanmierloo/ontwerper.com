@@ -27,12 +27,23 @@
   </div>
 </div>
 
-<div class="block block__quote cut--bottom">
+<div class="block block__references cut--bottom">
+  <div class="block__content">
+    <div class="references__intro"></div>
+    <ul class="references__logos">
+      {{ range .Params.references }}
+        <img src="{{ .logo }}" />
+      {{ end }}
+    </ul>
+  </div>
+</div>
+
+<!-- <div class="block block__quote cut--bottom">
   <div class="block__content">
     <div class="quote__text">{{ with .Params.quote.text }}{{ . | safeHTML }}{{ end }}</div>
     <div class="quote__author">- {{ .Params.quote.author }}</div>
   </div>
-</div>
+</div> -->
 
 <div class="block block__withimage block__about cut--bottom">
   <div class="block__content">
