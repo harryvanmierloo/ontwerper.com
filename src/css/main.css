@@ -23,6 +23,7 @@ html * {
   transition: background-color 0.5s ease-in-out, color 1s ease-in-out;
 }
 
+
 /* HERO */
 
 .hero {
@@ -110,6 +111,7 @@ html * {
 
 .block {
   background-color: var(--background-block);
+  overflow-x: hidden;
   padding: var(--spacing-default);
   padding-bottom: calc( var(--cut-height) + var(--spacing-default) );
   position: relative;
@@ -132,10 +134,6 @@ html * {
   margin-bottom: var(--spacing-double);
 }
 
-.block__withimage {
-  /*z-index: -1;*/
-}
-
 .block__withimage .block__content {
   @media (--breakpoint-medium) {
     text-align: left;
@@ -150,16 +148,15 @@ html * {
 
 .block__image {
   box-shadow: var(--shadow-image);
+  height: 40vh;
   margin-bottom: var(--spacing-double);
   margin-left: -2rem;
-  /*margin-right: -2rem;*/
-  max-height: 50vh;
   object-fit: cover;
-  width: 100vw;
+  width: calc(100% + 4rem);
 
   @media (--breakpoint-medium) {
-    max-height: 2000px;
-    max-width: calc( 50% - 1rem);
+    height: auto;
+    width: calc(50% - 1rem);
     float: right;
   }
 }
