@@ -40,7 +40,7 @@ how:
     en transparante communicatie zijn belangrijk voor mij om de beste resultaten
     voor u te kunnen bereiken.
 references:
-  intro: 'Eerder heb ik o.a. samengewerkt met:'
+  intro: 'Ik heb o.a. samengewerkt met:'
   logos:
     - link: 'https://www.startpage.com'
       logo: /img/startpage-2x.png
