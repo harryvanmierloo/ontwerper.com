@@ -3,9 +3,9 @@ title: Ontwerper.com
 subtitle: UX advies & design voor de digitale wereld
 meta:
   description: >-
-    Harry van Mierloo is een ervaren UX designer met ruim 15 jaar ervaring die u
-    helpt u met het opzetten en uitvoeren van een UX-strategie binnen de kaders
-    van uw business-doelstellingen en merk.
+    Creaties van pure kwaliteit. Ik help u met het opzetten en uitvoeren van een
+    UX-strategie binnen de kaders van uw business-doelstellingen en merk. Ook
+    beschikbaar voor allround UX-, UI- en visual design werk.
   keywords: >-
     ontwerper, ux, ux design, ux designer, harry van mierloo, ux designer den
     haag, ui designer, visual designer
