@@ -6,10 +6,10 @@ meta:
     Ontwerper.com adviseert u over een goede UX-strategie binnen de kaders van
     uw business-doelstellingen en merk. Ook beschikbaar voor allround UX, UI en
     visual design.
-  fbcard: /img/fb.png
   keywords: >-
     ontwerper, ux, ux design, ux designer, harry van mierloo, ux designer den
     haag, ui designer, visual designer
+  socialcard: /img/socialcard.png
 image: /img/hero.jpg
 email: info@ontwerper.com
 phone: +31 6 41 43 58 04
