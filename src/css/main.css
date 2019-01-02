@@ -151,11 +151,14 @@ html * {
 .block__image {
   box-shadow: var(--shadow-image);
   margin-bottom: var(--spacing-double);
-  max-height: 40vh;
+  margin-left: -2rem;
+  /*margin-right: -2rem;*/
+  max-height: 50vh;
   object-fit: cover;
-  width: 100%;  
+  width: 100vw;
 
   @media (--breakpoint-medium) {
+    max-height: 2000px;
     max-width: calc( 50% - 1rem);
     float: right;
   }
