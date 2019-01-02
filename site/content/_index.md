@@ -48,6 +48,10 @@ references:
       logo: /img/fox-it-2x.png
     - link: 'https://www.tudelft.nl'
       logo: /img/tu-delft-2x.png
+    - link: 'https://www.carnegieclinics.nl/'
+      logo: /img/carnegie-2x.png
+    - link: 'https://okit.com/'
+      logo: /img/ok-2x.png
 quote:
   author: Klant.com
   text: >-
