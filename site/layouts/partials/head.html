@@ -1,11 +1,13 @@
 <head>
 
-	<title>{{ .Title }}</title>
+	<title>{{ .Title }} | {{.Params.subtitle}}</title>
 	<link rel="stylesheet" href="/css/main.css" />
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{.Params.meta.description}}">
+	<meta name="keywords" content="{{.Params.meta.keywords}}">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
@@ -29,7 +31,6 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-131591253-1');
 	</script>
 
