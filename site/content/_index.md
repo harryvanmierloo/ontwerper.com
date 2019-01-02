@@ -32,9 +32,9 @@ how:
     en transparante communicatie zijn belangrijk voor mij om de beste resultaten
     voor u te kunnen bereiken.
 references:
-  - photo: /img/startpage-2x.png
-  - photo: /img/fox-it-2x.png
-  - photo: /img/tu-delft-2x.png
+  - logo: /img/startpage-2x.png
+  - logo: /img/fox-it-2x.png
+  - logo: /img/tu-delft-2x.png
 quote:
   author: Klant.com
   text: >-
