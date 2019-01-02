@@ -124,11 +124,41 @@ html * {
 
 .block__title {
   color: var(--text-heading);
+  padding: var(--spacing-double) 0;
   text-transform: uppercase;
 }
 
 .block__copy {
   margin-bottom: var(--spacing-double);
+}
+
+.block__withimage {
+  /*z-index: -1;*/
+}
+
+.block__withimage .block__content {
+  @media (--breakpoint-medium) {
+    text-align: left;
+  }
+}
+
+.block__withimage .block__copy {
+  @media (--breakpoint-medium) {
+    max-width: calc( 50% - 1rem);
+  }
+}
+
+.block__image {
+  box-shadow: var(--shadow-image);
+  margin-bottom: var(--spacing-double);
+  max-height: 40vh;
+  object-fit: cover;
+  width: 100%;  
+
+  @media (--breakpoint-medium) {
+    max-width: calc( 50% - 1rem);
+    float: right;
+  }
 }
 
 .block__quote {

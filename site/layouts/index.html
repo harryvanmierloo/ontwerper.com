@@ -12,7 +12,7 @@
   </div>
 </div>
 
-<div class="block text--block block__why cut--top cut--bottom">
+<div class="block block__why cut--top cut--bottom">
   <div class="block__content">
     <h2 class="block__title">{{.Params.why.heading}}</h2>
     <div class="block__copy">{{ with .Params.why.text }}{{ . | safeHTML }}{{ end }}</div>
@@ -20,23 +20,24 @@
   </div>
 </div>
 
-<div class="block text--block block__how cut--bottom">
+<div class="block block__how cut--bottom">
   <div class="block__content">
     <h2 class="block__title">{{.Params.how.heading}}</h2>
     <div class="block__copy">{{ with .Params.how.text }}{{ . | safeHTML }}{{ end }}</div>
   </div>
 </div>
 
-<div class="block text--block block__quote cut--bottom">
+<div class="block block__quote cut--bottom">
   <div class="block__content">
     <div class="quote__text">{{ with .Params.quote.text }}{{ . | safeHTML }}{{ end }}</div>
     <div class="quote__author">- {{ .Params.quote.author }}</div>
   </div>
 </div>
 
-<div class="block text--block block__about cut--bottom">
+<div class="block block__withimage block__about cut--bottom">
   <div class="block__content">
     <h2 class="block__title">{{.Params.about.heading}}</h2>
+    <img class="block__image" src="{{ .Params.about.image }}" />
     <div class="block__copy">{{ with .Params.about.text }}{{ . | safeHTML }}{{ end }}</div>
   </div>
 </div>
