@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Meta", name: "meta", widget: object, fields: [
               {label: "Description", name: "description", widget: text},
               {label: "Keywords", name: "keywords", widget: string},
-              {label: "Facebook card", name: "fbcard", widget: image}]}
+              {label: "Social card image", name: "socialcard", widget: image}]}
           - {label: "Image", name: "image", widget: image}
           - {label: "Email", name: "email", widget: string}
           - {label: "Phone", name: "phone", widget: string}
