@@ -12,7 +12,7 @@
   --black: #000000;
 
 	/* Typography */
-	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family: "Avenir", system-ui;
 	--font-family-heading: 'Lietz-LindauHamburg';
 	--line-height: 1.5;
 
