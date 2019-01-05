@@ -4,8 +4,7 @@ subtitle: UX advies & design voor de digitale wereld
 meta:
   description: >-
     Ontwerper.com adviseert u over een goede UX-strategie binnen de kaders van
-    uw business-doelstellingen en merk. Ook beschikbaar voor allround UX, UI en
-    visual design.
+    uw business-doelstellingen en merk, en helpt met UX, UI en visual design.
   keywords: >-
     ontwerper, ux, ux design, ux designer, harry van mierloo, ux designer den
     haag, ui designer, visual designer
