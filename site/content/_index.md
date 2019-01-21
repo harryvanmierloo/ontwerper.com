@@ -43,15 +43,20 @@ how:
 references:
   intro: 'Ik heb o.a. samengewerkt met:'
   logos:
-    - link: 'https://www.startpage.com'
+    - client: Startpage.com
+      link: 'https://www.startpage.com'
       logo: /img/startpage-2x.png
-    - link: 'https://www.fox-it.com'
+    - client: Fox-IT
+      link: 'https://www.fox-it.com'
       logo: /img/fox-it-2x.png
-    - link: 'https://www.tudelft.nl'
+    - client: TU Delft
+      link: 'https://www.tudelft.nl'
       logo: /img/tu-delft-2x.png
-    - link: 'https://www.carnegieclinics.nl/'
+    - client: Carnegie Clinics
+      link: 'https://www.carnegieclinics.nl/'
       logo: /img/carnegie-2x.png
-    - link: 'https://okit.com/'
+    - client: OK
+      link: 'https://okit.com/'
       logo: /img/ok-2x.png
 quote:
   author: Klant.com
