@@ -318,6 +318,6 @@ html * {
 
 .footer__info--item span {
   display: inline-block;
-  width: var(--spacing-double);
+  width: 3rem;
   transition: none;
 }

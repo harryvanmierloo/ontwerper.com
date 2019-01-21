@@ -21,6 +21,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Image", name: "image", widget: image}
           - {label: "Email", name: "email", widget: string}
           - {label: "Phone", name: "phone", widget: string}
+          - {label: "KvK", name: "kvk", widget: string}
           - label: "Why"
             name: "why"
             widget: object
