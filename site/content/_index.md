@@ -41,7 +41,7 @@ how:
     werken. Open en transparante communicatie zijn belangrijk voor mij om de
     beste resultaten voor u te kunnen bereiken.
 references:
-  intro: 'Eerdere samenwerkingen:'
+  intro: 'Ik heb eerder samengewerkt met:'
   logos:
     - client: Startpage.com
       link: 'https://www.startpage.com'
