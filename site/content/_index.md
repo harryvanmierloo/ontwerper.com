@@ -10,7 +10,6 @@ meta:
     haag, ui designer, visual designer
   socialcard: /img/socialcard.png
 image: /img/hero.jpg
-image-alt: Arend met konijnenhoofd en scherpe klauwen die op een ton landt.
 email: info@ontwerper.com
 phone: +31 6 41 43 58 04
 kvk: '73608114'
@@ -67,7 +66,7 @@ quote:
 about:
   heading: Over Harry
   image: /img/ik2.jpg
-  image-alt: Portret van een lachende Harry van Mierloo met bril en baard
+  imagealt: Portret van lachende Harry van Mierloo met baard en bril
   text: "’s Ochtends sta ik op om creaties van pure kwaliteit te maken, zodat mensen een prachtig en onbezorgd moment kunnen beleven. Van gebruiksvriendelijke website tot interessante foto, van strak slide deck tot advies over de beste indeling van een design-team.<br><br>Als ingenieur in het Industrieel Ontwerpen (TU Delft) heb ik een specialisatie in mens-product interactie. Ik startte mijn carrière als PS3/Xbox/PC game designer en won hierbij o.a. de Dutch Game Award voor “Best PC/Console Game”. Vervolgens heb ik als UX-, UI- en visual designer voor diverse B2B en B2C organisaties gewerkt. Soms werkte ik dicht op branding & marketing, soms\_in het hart van product development. In 2016 werd ik de eerste Nederlandse ontwerper met het UX Master Certificate van de gerenommeerde Nielsen Norman Group uit Silicon Valley. Sindsdien ben ik begonnen om organisaties advies te geven over de meerwaarde en praktische inzet van UX als vakgebied.<br><br>In mijn vrije tijd doe ik aan fotografie en conceptuele beeldbewerking. Daarnaast maak ik bergwandelingen en retro-sounds met synthesizers."
 ---
 
