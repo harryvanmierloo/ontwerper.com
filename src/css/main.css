@@ -206,7 +206,9 @@ html * {
 
 .block__references .references__intro {
   color: var(--text-inverted);
-  margin-bottom: var(--spacing-default);
+  font-size: 150%;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-double);
 }
 
 .block__references .references__logos {

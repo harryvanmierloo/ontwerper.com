@@ -34,7 +34,7 @@
       {{ range .Params.references.logos }}
         <li class="references__logo">
           <a target="blank" href="{{ .link }}">
-            <img src="{{ .logo }}" />
+            <img src="{{ .logo }}" alt="{{ .client }} logo" />
           </a>
         </li>
       {{ end }}
@@ -52,7 +52,7 @@
 <div class="block block__withimage block__about cut--bottom">
   <div class="block__content">
     <h2 class="block__title">{{.Params.about.heading}}</h2>
-    <img class="block__image" src="{{.Params.about.image}}" />
+    <img class="block__image" src="{{.Params.about.image}}" alt="{{.Params.about.imagealt}}" />
     <div class="block__copy">{{ with .Params.about.text }}{{ . | safeHTML }}{{ end }}</div>
   </div>
 </div>
