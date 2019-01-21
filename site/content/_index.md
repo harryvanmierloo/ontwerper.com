@@ -12,6 +12,7 @@ meta:
 image: /img/hero.jpg
 email: info@ontwerper.com
 phone: +31 6 41 43 58 04
+kvk: '73608114'
 why:
   button:
     link: 'mailto:info@ontwerper.com'
