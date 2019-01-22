@@ -16,7 +16,7 @@
   <div class="block__content">
     <h2 class="block__title">{{.Params.why.heading}}</h2>
     <div class="block__copy">{{ with .Params.why.text }}{{ . | safeHTML }}{{ end }}</div>
-    <a class="block__button button button--primary" href="{{.Params.why.button.link}}" onclick="gtag_report_conversion(this.href);">{{.Params.why.button.text}}</a>
+    <a class="block__button button button--primary" href="{{.Params.why.button.link}}" onclick="gtag('event', 'Click' { 'event_category': 'Email'});">{{.Params.why.button.text}}</a>
   </div>
 </div>
 
