@@ -43,24 +43,6 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 	  gtag('config', 'UA-131591253-1');
-	  gtag('config', 'AW-1008516939');
-	</script>
-
-	<!-- Event snippet for Contact link geklikt conversion page
-	In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-	<script>
-	function gtag_report_conversion(url) {
-	  var callback = function () {
-	    if (typeof(url) != 'undefined') {
-	      window.location = url;
-	    }
-	  };
-	  gtag('event', 'conversion', {
-	      'send_to': 'AW-1008516939/Zd1LCJ2E05MBEMv-8uAD',
-	      'event_callback': callback
-	  });
-	  return false;
-	}
 	</script>
 
 </head>

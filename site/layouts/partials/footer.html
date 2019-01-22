@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="footer__logo logo__title">Ontwerper<span>.com</span></div>
   <div class="footer__info">
-    <a class="footer__info--item" href="mailto:{{.Params.email}}" onclick="gtag('event', 'Click' { 'event_category': 'Email'});"><span>E:</span>{{.Params.email}}</a>
+    <a class="footer__info--item" href="mailto:{{.Params.email}}" onclick="gtag('event', 'Click', { 'event_category': 'Email'});"><span>E:</span>{{.Params.email}}</a>
     <a class="footer__info--item" href='tel:{{replace .Params.phone " " ""}}'><span>T:</span>{{.Params.phone}}</a>
     <a class="footer__info--item" href="https://diensten.kvk.nl/TST-BIN/FU/TSWS001@?BUTT={{.Params.kvk}}"><span>KvK:</span>{{.Params.kvk}}</a>
   </div>
