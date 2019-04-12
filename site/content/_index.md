@@ -55,15 +55,15 @@ references:
     - client: Carnegie Clinics
       link: 'https://www.carnegieclinics.nl/'
       logo: /img/carnegie-2x.png
-    - client: OK
-      link: 'https://okit.com/'
-      logo: /img/ok-2x.png
-    - client: Intel 471
-      link: 'https://www.intel471.com'
-      logo: /img/intel-471-2x.png
     - client: Fysio.eu
       link: 'http://www.fysio.eu'
       logo: /img/fysio.eu-2x.png
+    - client: Intel 471
+      link: 'https://www.intel471.com'
+      logo: /img/intel-471-2x.png
+    - client: OK
+      link: 'https://okit.com/'
+      logo: /img/ok-2x.png
     - client: ITDD
       link: 'https://www.itdd.nl'
       logo: /img/itdd-2x.png
