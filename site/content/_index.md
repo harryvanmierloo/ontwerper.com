@@ -62,7 +62,7 @@ references:
       link: 'https://www.intel471.com'
       logo: /img/intel-471-2x.png
     - client: Fysio.eu
-      link: www.fysio.eu
+      link: 'http://www.fysio.eu'
       logo: /img/fysio.eu-2x.png
     - client: ITDD
       link: 'https://www.itdd.nl'
