@@ -58,6 +58,18 @@ references:
     - client: OK
       link: 'https://okit.com/'
       logo: /img/ok-2x.png
+    - client: Intel 471
+      link: 'https://www.intel471.com'
+      logo: /img/intel-471-2x.png
+    - client: Fysio.eu
+      link: www.fysio.eu
+      logo: /img/fysio.eu-2x.png
+    - client: ITDD
+      link: 'https://www.itdd.nl'
+      logo: /img/itdd-2x.png
+    - client: DutchSec
+      link: 'https://www.dutchsec.com'
+      logo: /img/dutchsec-2x.png
 quote:
   author: Klant.com
   text: >-
