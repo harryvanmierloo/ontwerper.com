@@ -70,6 +70,15 @@ references:
     - client: DutchSec
       link: 'https://www.dutchsec.com'
       logo: /img/dutchsec-2x.png
+    - client: Hunt & Hackett
+      link: 'https://www.huntandhackett.com'
+      logo: /img/huntandhackett-2x.png
+    - client: Securify
+      link: 'https://www.securify.nl'
+      logo: /img/securify-2x.png
+    - client: Signpost Six
+      link: 'https://www.signpostsix.com'
+      logo: /img/signpostsix-2x.png
 quote:
   author: Klant.com
   text: >-
