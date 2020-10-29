@@ -1,7 +1,7 @@
 {
   "main": {
-    "js": "main.js",
-    "css": "main.css"
+    "css": "main.css",
+    "js": "main.js"
   },
   "": {
     "dsStore": "fonts/.DS_Store",
@@ -19,7 +19,6 @@
       "fonts/Lietz-LindauHamburg.ttf.woff",
       "fonts/avenir-black.woff",
       "fonts/avenir-book.woff"
-    ],
-    "json": "b4f38ca48b51a1671659.hot-update.json"
+    ]
   }
 }

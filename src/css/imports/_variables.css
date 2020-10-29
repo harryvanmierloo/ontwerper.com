@@ -40,8 +40,3 @@
   	--shadow-image: 0 3px 6px rgba(0, 0, 0, 0.25);
   	--shadow-button: var(--spacing-half) var(--spacing-half) 0 var(--dark-purple);
 }
-
-/* Media queries */
-@custom-media --breakpoint-not-small screen and (min-width: 480px);
-@custom-media --breakpoint-medium screen and (min-width: 640px);
-@custom-media --breakpoint-large screen and (min-width: 960px);
