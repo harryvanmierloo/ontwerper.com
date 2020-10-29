@@ -1,29 +1,29 @@
 @font-face {
   font-family: 'Lietz-LindauHamburg';
-  src:url('../fonts/Lietz-LindauHamburg.ttf.woff') format('woff'),
-      url('../fonts/Lietz-LindauHamburg.ttf.svg#Lietz-LindauHamburg') format('svg'),
-      url('../fonts/Lietz-LindauHamburg.ttf.eot'),
-      url('../fonts/Lietz-LindauHamburg.ttf.eot?#iefix') format('embedded-opentype'); 
+  src:url('/fonts/Lietz-LindauHamburg.ttf.woff') format('woff'),
+      url('/fonts/Lietz-LindauHamburg.ttf.svg#Lietz-LindauHamburg') format('svg'),
+      url('/fonts/Lietz-LindauHamburg.ttf.eot'),
+      url('/fonts/Lietz-LindauHamburg.ttf.eot?#iefix') format('embedded-opentype'); 
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src:url('../fonts/avenir-black.woff') format('woff'),
-      url('../avenir-black.svg#avenirblack') format('svg'),
-      url('../avenir-black.eot'),
-      url('../avenir-black.eot?#iefix') format('embedded-opentype'); 
+  src:url('/fonts/avenir-black.woff') format('woff'),
+      url('/fonts/avenir-black.svg#avenirblack') format('svg'),
+      url('/fonts/avenir-black.eot'),
+      url('/fonts/avenir-black.eot?#iefix') format('embedded-opentype'); 
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src:url('../fonts/avenir-book.woff') format('woff'),
-      url('../avenir-book.svg#AvenirBook') format('svg'),
-      url('../avenir-book.eot'),
-      url('../avenir-book.eot?#iefix') format('embedded-opentype'); 
+  src:url('/fonts/avenir-book.woff') format('woff'),
+      url('/fonts/avenir-book.svg#AvenirBook') format('svg'),
+      url('/fonts/avenir-book.eot'),
+      url('/fonts/avenir-book.eot?#iefix') format('embedded-opentype'); 
   font-weight: normal;
   font-style: normal;
 }
@@ -31,11 +31,11 @@
 html {
   font-size: var(--font-size);
 
-  @media (--breakpoint-medium) {
+  @media screen and (min-width: 640px) {
     font-size: var(--font-size-m);
   }
 
-  @media (--breakpoint-large) {
+  @media screen and (min-width: 960px) {
     font-size: var(--font-size-l);
   }
 }

@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 	<meta name="description" content="{{.Params.meta.description}}">
 	<meta name="keywords" content="{{.Params.meta.keywords}}">
 
@@ -32,9 +32,12 @@
 	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
 	<meta name="theme-color" content="#fff">
 
-	<link rel="stylesheet" href="/css/main.css" />
+	<!-- <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
 
-	<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	{{ $stylesheet := .Site.Data.webpack.main }}
+	{{ with $stylesheet.css }}
+		<link href="{{ relURL . }}" rel="stylesheet">
+	{{ end }}
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131591253-1"></script>

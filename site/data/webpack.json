@@ -1,0 +1,25 @@
+{
+  "main": {
+    "js": "main.js",
+    "css": "main.css"
+  },
+  "": {
+    "dsStore": "fonts/.DS_Store",
+    "eot": [
+      "fonts/Lietz-LindauHamburg.ttf.eot",
+      "fonts/avenir-black.eot",
+      "fonts/avenir-book.eot"
+    ],
+    "svg": [
+      "fonts/Lietz-LindauHamburg.ttf.svg",
+      "fonts/avenir-black.svg",
+      "fonts/avenir-book.svg"
+    ],
+    "woff": [
+      "fonts/Lietz-LindauHamburg.ttf.woff",
+      "fonts/avenir-black.woff",
+      "fonts/avenir-book.woff"
+    ],
+    "json": "b4f38ca48b51a1671659.hot-update.json"
+  }
+}
