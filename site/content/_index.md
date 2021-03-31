@@ -76,6 +76,12 @@ references:
     - client: ITDD
       link: https://www.itdd.nl
       logo: /img/itdd-2x.png
+    - client: ThreatFabric
+      logo: /img/threatfabric-2x.png
+      link: https://www.threatfabric.com/
+    - client: BonCode
+      logo: /img/boncode-2x.png
+      link: https://www.boncode.nl/
 quote:
   author: Klant.com
   text: “Door het werk van Harry is ons team zich veel meer bewust van wat onze
