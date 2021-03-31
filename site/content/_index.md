@@ -82,6 +82,9 @@ references:
     - client: BonCode
       logo: /img/boncode-2x.png
       link: https://www.boncode.nl/
+    - client: Blanco
+      logo: /img/blanco-2x.png
+      link: https://www.useblanco.com/
 quote:
   author: Klant.com
   text: “Door het werk van Harry is ons team zich veel meer bewust van wat onze
