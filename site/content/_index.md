@@ -85,6 +85,9 @@ references:
     - client: Blanco
       logo: /img/blanco-2x.png
       link: https://www.useblanco.com/
+    - client: Cybersprint
+      link: https://www.cybersprint.com
+      logo: /img/cybersprint-2x.png
 quote:
   author: Klant.com
   text: “Door het werk van Harry is ons team zich veel meer bewust van wat onze
